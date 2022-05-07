@@ -16,7 +16,7 @@ function about() {
         </p>
         <p className="relative my-3 text-sm opacity-70">
           In my years of learning, I have been able to work voluntarily, work
-          with teams, work as an intern, and more. I currently working as a
+          with teams, work as an intern, and more. I&apos;m currently working as a
           freelance developer. Building
           personal projects in my free time. Improving my UI/UX skill and
           volunteering for other free projects.
