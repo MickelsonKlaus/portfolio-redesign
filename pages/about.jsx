@@ -9,24 +9,24 @@ function about() {
         <p className="relative my-3 text-sm opacity-70">
           I&apos;m a front-end developer based in Nigeria. I started my coding
           career back in 2019 while I was still in college. It was challenging
-          because I had to balance it with school. The primary area of my
+          because I had to balance it with school work. The primary area of my
           interest is in front-end development, although I know a bit of backend
-          development. But making little steps without being in haste has help
-          me a lot. On the long run, I plan to become a full-stack developer.
+          development. But making little steps without being in haste has helped
+          me a lot. In the long run, I plan to become a full-stack developer.
         </p>
         <p className="relative my-3 text-sm opacity-70">
           In my years of learning, I have been able to work voluntarily, work
-          with teams, work as an intern and lots more. I currently work as a
-          freelance developer with some selected freelance client. Build
-          personal projects on my free time. Improve my UI/UX skill and
-          volunteer for free projects.
+          with teams, work as an intern, and more. I currently working as a
+          freelance developer. Building
+          personal projects in my free time. Improving my UI/UX skill and
+          volunteering for other free projects.
         </p>
         <p className="relative my-3 text-sm opacity-70">
           I love working on products that contribute to the growth of
-          businesses. I don&apos;t just program or write codes, I help client
+          businesses. I don&apos;t just program or write codes, I help the client
           solve problems and increase the Return On Investments(ROI) by building
-          websites that converts prospects into loyal customers. Client
-          satisfaction is my top most priority.
+          websites that convert prospects into loyal customers. Client
+          satisfaction is my topmost priority.
         </p>
         <p className="relative my-5 text-sm opacity-70">
           <a
