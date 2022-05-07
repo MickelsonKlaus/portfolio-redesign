@@ -9,9 +9,10 @@ function Navbar() {
   const handleClick = () => {
     setOpenBar(!openBar);
   };
+
   return (
     <nav className="sticky top-0 z-50 flex items-center justify-between px-5 py-2 bg-black shadow-sm md:px-10 shadow-gray-500/10">
-      <NavLink exact href="/">
+      <NavLink exact href="/" onClick={handleClick}>
         <Image src={logo} alt="iBrad" />
       </NavLink>
       <button
@@ -33,6 +34,7 @@ function Navbar() {
         </button>
         <li>
           <NavLink
+            onClick={handleClick}
             href="/works"
             className="block px-5 py-5 text-sm font-medium transition-all duration-200 border-2 border-transparent md:text-md group hover:bg-accent active:bg-accent active:scale-125 hover:border-white active:border-white"
           >
@@ -41,6 +43,7 @@ function Navbar() {
         </li>
         <li>
           <NavLink
+            onClick={handleClick}
             href="/skills"
             className="block px-5 py-5 text-sm font-medium transition-all duration-200 border-2 border-transparent md:text-md group hover:bg-accent active:bg-accent active:scale-125 hover:border-white active:border-white"
           >
@@ -49,6 +52,7 @@ function Navbar() {
         </li>
         <li>
           <NavLink
+            onClick={handleClick}
             href="/about"
             className="block px-5 py-5 text-sm font-medium transition-all duration-200 border-2 border-transparent md:text-md group hover:bg-accent active:bg-accent active:scale-125 hover:border-white active:border-white"
           >
@@ -57,6 +61,7 @@ function Navbar() {
         </li>
         <li>
           <NavLink
+            onClick={handleClick}
             href="/testimonials"
             className="block px-5 py-5 text-sm font-medium transition-all duration-200 border-2 border-transparent md:text-md group hover:bg-accent active:bg-accent active:scale-125 hover:border-white active:border-white"
           >
@@ -65,6 +70,7 @@ function Navbar() {
         </li>
         <li>
           <NavLink
+            onClick={handleClick}
             href="/contact"
             className="block px-5 py-5 text-sm font-medium transition-all duration-200 border-2 border-transparent md:text-md group hover:bg-accent active:bg-accent active:scale-125 hover:border-white active:border-white"
           >
