@@ -11,7 +11,7 @@ function Layout({ children }) {
             <Navbar />
             <div className='relative pt-16 w-screen min-h-screen md:w-[75%] mx-auto p-5 md:px-10 before:absolute before:h-full before:z-0 before:w-screen before:bg-white/5 before:blur-md before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2'>
                 {children}
-                <span className="block my-16 space-x-4 md:space-x-6 group" rel="noreferrer">
+                <span className="block my-16 space-x-5 md:space-x-7 group" rel="noreferrer">
                     <a href="https://web.facebook.com/Braimah-Destiny-105694525474749" target="_blank" title="Facebook" rel="noreferrer">
                         <Image src={facebook} alt="facebook" width={20} height={20} className="transition-all duration-200 hover:scale-110 active:scale-110" />
                     </a>
