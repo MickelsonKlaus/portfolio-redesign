@@ -52,6 +52,7 @@ function Contact() {
               type="text"
               name="name"
               id="name"
+              required
               className="block w-full p-3 mt-3 mb-4 rounded-md outline-none bg-white/30"
             />
           </label>
@@ -61,6 +62,7 @@ function Contact() {
               type="email"
               name="email"
               id="email"
+              required
               className="block w-full p-3 mt-3 mb-4 rounded-md outline-none bg-white/30"
             />
           </label>
@@ -71,6 +73,7 @@ function Contact() {
               id="message"
               cols="30"
               rows="10"
+              required
               className="block w-full p-3 mt-3 mb-4 rounded-md outline-none bg-white/30"
             ></textarea>
           </label>
