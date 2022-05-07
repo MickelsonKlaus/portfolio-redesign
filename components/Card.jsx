@@ -13,7 +13,7 @@ function Card({ data }) {
         },
         zIndex: 10,
       }}
-      className="relative h-64 overflow-hidden bg-black bg-white rounded-md cursor-pointer group"
+      className="relative h-64 overflow-hidden bg-black rounded-md cursor-pointer group"
     >
       <motion.img
         whileHover={{
@@ -27,7 +27,7 @@ function Card({ data }) {
         <a
           href={data?.link}
           rel="noreferrer"
-          className="relative top-0 z-20 text-white group-hover:underline"
+          className="relative top-0 z-20 font-medium text-white group-hover:underline"
         >
           {data?.title}
         </a>
