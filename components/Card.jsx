@@ -21,7 +21,7 @@ function Card({ data }) {
         }}
         alt="default"
         src={data?.src}
-        className="object-contain object-center w-full h-full"
+        className="object-cover object-center w-full h-full"
       />
       <div className="absolute left-0 w-full px-5 py-5 transition-all duration-500 min-h-24 -bottom-40 rounded-t-md group-hover:bottom-0 bg-accent/80">
         <a
