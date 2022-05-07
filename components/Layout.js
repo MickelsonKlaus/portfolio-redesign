@@ -5,11 +5,11 @@ import { facebook, circle, twitter, linkedin, email, github } from "../assets/sv
 function Layout({ children }) {
     return (
         <main className="relative w-screen h-screen overflow-x-hidden transition-all bg-black scroll-smooth">
-            <div className="fixed -translate-y-1/2 top-1/2 -left-40 md:-left-16">
+            {/* <div className="fixed -translate-y-1/2 top-1/2 -left-40 md:-left-16">
                 <Image src={circle} alt="circle" width={200} height={200} />
-            </div>
+            </div> */}
             <Navbar />
-            <div className='relative pt-16 w-[85%] min-h-screen md:w-[75%] mx-auto px-5 py-3 md:px-10 before:absolute before:h-full before:z-0 before:w-screen before:bg-white/5 before:blur-md before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2'>
+            <div className='relative pt-16 w-screen min-h-screen md:w-[75%] mx-auto px-5 py-3 md:px-10 before:absolute before:h-full before:z-0 before:w-screen before:bg-white/5 before:blur-md before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2'>
                 {children}
                 <span className="block mt-16 space-x-4 md:space-x-6 group" rel="noreferrer">
                     <a href="https://web.facebook.com/Braimah-Destiny-105694525474749" target="_blank" title="Facebook" rel="noreferrer">
@@ -29,9 +29,9 @@ function Layout({ children }) {
                     </a>
                 </span>
             </div>
-            <div className="fixed -translate-y-1/2 top-1/2 -right-40 md:-right-16">
+            {/* <div className="fixed -translate-y-1/2 top-1/2 -right-40 md:-right-16">
                 <Image src={circle} alt="circle" width={200} height={200} />
-            </div>
+            </div> */}
         </main>
     )
 }
