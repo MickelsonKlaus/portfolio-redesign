@@ -39,7 +39,7 @@ function Contact() {
       <div className="relative min-h-[60vh] text-white">
         <h2 className="text-xl font-medium md:text-2xl">Contact</h2>
         <p className="mt-2 text-sm opacity-70 md:w-72">
-          Get a job or want to hire me. Send me a message
+          Got a job or want to hire me. Send me a message.
         </p>
         <form
           className="mt-5 md:max-w-[500px]"
