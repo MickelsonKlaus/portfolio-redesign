@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 flex items-center justify-between px-5 py-2 bg-black shadow-sm md:px-10 shadow-gray-500/10">
-      <NavLink exact href="/" onClick={handleClick}>
+      <NavLink exact href="/">
         <Image src={logo} alt="iBrad" />
       </NavLink>
       <button
