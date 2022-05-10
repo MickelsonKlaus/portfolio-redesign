@@ -11,7 +11,6 @@ function MyApp({ Component, pageProps, router }) {
         canonical="https://ibrad-dev.vercel.app/"
         openGraph={{
           type: 'website',
-          locale: 'en-us',
           site_name: 'Braimah Destiny - React Frontend Developer',
           images: [
             {
