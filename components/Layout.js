@@ -5,7 +5,7 @@ import { facebook, circle, twitter, linkedin, email, github } from "../assets/sv
 function Layout({ children }) {
     return (
         <main className="relative w-screen h-screen overflow-x-hidden transition-all bg-black scroll-smooth">
-            <div className="fixed hidden -translate-y-1/2 top-1/2 -left-40 md:block">
+            <div className="fixed hidden -translate-y-1/2 top-1/2 -left-40 lg:block">
                 <Image src={circle} alt="circle" width={200} height={200} />
             </div>
             <Navbar />
@@ -29,7 +29,7 @@ function Layout({ children }) {
                     </a>
                 </span>
             </div>
-            <div className="fixed hidden -translate-y-1/2 top-1/2 -right-40 md:block">
+            <div className="fixed hidden -translate-y-1/2 top-1/2 -right-40 lg:block">
                 <Image src={circle} alt="circle" width={200} height={200} />
             </div>
         </main>
