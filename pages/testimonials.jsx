@@ -15,7 +15,7 @@ function testimonials() {
         }}
       />
       <div className="relative min-h-[60vh] text-white">
-        <h2 className="text-xl font-medium md:text-2xl">Testimonials</h2>
+        <h1 className="text-xl font-medium md:text-2xl">Testimonials</h1>
         <p className="my-3 mt-2 text-sm opacity-70">
           Some of my happy and satisfied clients and what they are saying
         </p>

@@ -48,7 +48,7 @@ function Contact() {
       />
       {sent && <Notification />}
       <div className="relative min-h-[60vh] text-white">
-        <h2 className="text-xl font-medium md:text-2xl">Contact</h2>
+        <h1 className="text-xl font-medium md:text-2xl">Contact</h1>
         <p className="mt-2 text-sm opacity-70 md:w-72">
           Got a job or want to hire me. Send me a message.
         </p>

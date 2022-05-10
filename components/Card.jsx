@@ -1,5 +1,3 @@
-import Image from "next/image";
-//import defaultImg from "../assets/joshua-earle-ICE__bo2Vws-unsplash.jpg";
 import { motion } from "framer-motion";
 
 function Card({ data }) {

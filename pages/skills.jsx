@@ -69,7 +69,7 @@ function Skills() {
       />
       <div className="relative min-h-[60vh] text-white">
         <div className="md:max-w-[500px]">
-          <h2 className="text-xl font-medium md:text-2xl">Skills</h2>
+          <h1 className="text-xl font-medium md:text-2xl">Skills</h1>
           <p className="my-3 mt-2 text-sm opacity-70">
             These are the skills I possess and technologies I use.
           </p>

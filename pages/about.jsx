@@ -1,4 +1,3 @@
-import React from "react";
 import Squares from "../components/Squares";
 import { NextSeo } from "next-seo";
 
@@ -15,7 +14,7 @@ function about() {
       />
       <div className=" relative min-h-[60vh] text-white">
         <div className=" md:max-w-[500px]">
-          <h2 className="text-xl font-medium md:text-2xl">About</h2>
+          <h1 className="text-xl font-medium md:text-2xl">About</h1>
           <p className="relative my-3 text-sm opacity-70">
             I&apos;m a front-end developer based in Nigeria. I started my coding
             career back in 2019 while I was still in college. It was challenging

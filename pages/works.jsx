@@ -42,7 +42,7 @@ function Works() {
       />
       <div className=" relative min-h-[60vh] text-white">
         <div className="md:sticky md:top-40">
-          <h2 className="text-xl font-medium md:text-2xl">Works</h2>
+          <h1 className="text-xl font-medium md:text-2xl">Works</h1>
           <p className="relative mt-2 text-sm opacity-70 md:w-72">
             A selection of projects I&apos;ve worked on, during my career as a
             software developer.

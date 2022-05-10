@@ -7,11 +7,11 @@ function MyApp({ Component, pageProps, router }) {
   return (
     <Layout>
       <DefaultSeo
-        description="With the power and beauty in programming and knowledge of design, I create stunning solutions for clients and help increase their return on investment by building software that converts prospects into loyal customers."
+        description="I create stunning solutions for clients and help increase their return on investment by building software that converts prospects into loyal customers."
         canonical="https://ibrad-dev.vercel.app/"
         openGraph={{
           type: 'website',
-          locale: 'en_IE',
+          locale: 'en-us',
           site_name: 'Braimah Destiny - React Frontend Developer',
           images: [
             {
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps, router }) {
               type: 'image/jpeg',
             },
           ],
-          description: "With the power and beauty in programming and knowledge of design, I create stunning solutions for clients and help increase their return on investment by building software that converts prospects into loyal customers."
+          description: "I create stunning solutions for clients and help increase their return on investment by building software that converts prospects into loyal customers."
         }}
         twitter={{
           handle: '@iDevBraD',
