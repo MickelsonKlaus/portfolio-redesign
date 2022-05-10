@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Notification from "../components/Notification";
 import Squares from "../components/Squares";
+import { NextSeo } from "next-seo";
 
 function Contact() {
   const formRef = useRef(null);
@@ -21,11 +22,13 @@ function Contact() {
       .then(
         (result) => {
           //console.log(result.text);
-          setSending(false);
-          setSent(true);
-          setTimeout(() => {
-            setSent(false);
-          }, 3000);
+          if (result) {
+            setSending(false);
+            setSent(true);
+            setTimeout(() => {
+              setSent(false);
+            }, 3000);
+          }
         },
         (error) => {
           setSending(false);
@@ -35,6 +38,14 @@ function Contact() {
   };
   return (
     <>
+      <NextSeo
+        title="Braimah Destiny - Contact"
+        canonical="https://ibrad-dev.vercel.app/contact"
+        openGraph={{
+          url: "https://ibrad-dev.vercel.app/contact",
+          title: "Braimah Destiny - Contact",
+        }}
+      />
       {sent && <Notification />}
       <div className="relative min-h-[60vh] text-white">
         <h2 className="text-xl font-medium md:text-2xl">Contact</h2>
