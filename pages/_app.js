@@ -28,6 +28,10 @@ function MyApp({ Component, pageProps, router }) {
           site: '@iDevBraD',
           cardType: 'summary',
         }}
+        additionalMetaTags={[{
+          name: "keywords",
+          content: 'Destiny, Braimah Destiny, Braimah, Frontend Developer, React, customers, building software, help increase, create stunning solutions, stunning, converts prospects, create, converts, clients, building, software, Front End Developer, solutions, investment, prospects'
+        }]}
       />
       <AnimatePresence>
         <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" exit="pageExit" variants={{
