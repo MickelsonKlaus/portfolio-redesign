@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 function Card({ data }) {
   return (
@@ -11,16 +12,22 @@ function Card({ data }) {
         },
         zIndex: 10,
       }}
-      className="relative h-64 overflow-hidden bg-black rounded-md cursor-pointer group"
+      className="relative w-full h-64 overflow-hidden bg-black rounded-md cursor-pointer group"
     >
-      <motion.img
+      <motion.div
         whileHover={{
           scale: [1, 1.15, 1.1, 1],
         }}
-        alt="default"
-        src={data?.src}
-        className="object-cover object-center w-full h-full"
-      />
+        className="w-full h-full"
+      >
+        <Image
+          alt="default"
+          src={data?.src}
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+        />
+      </motion.div>
       <div className="absolute left-0 w-full px-5 py-5 transition-all duration-500 min-h-24 -bottom-40 rounded-t-md group-hover:bottom-0 bg-accent/80">
         <a
           href={data?.link}

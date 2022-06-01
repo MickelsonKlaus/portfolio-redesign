@@ -41,7 +41,7 @@ function Works() {
         }}
       />
       <div className=" relative min-h-[60vh] text-white">
-        <div className="md:sticky md:top-40">
+        <div className="lg:sticky lg:top-40">
           <h1 className="text-xl font-medium md:text-2xl">Works</h1>
           <p className="relative mt-2 text-sm opacity-70 md:w-72">
             A selection of projects I&apos;ve worked on, during my career as a
@@ -51,13 +51,13 @@ function Works() {
             <Squares />
           </span>
         </div>
-        <div className="pt-10 ml-auto mr-0 space-y-5 md:pt-20 md:-mt-20 md:w-3/5 md:flex md:justify-between md:items-center md:space-x-5">
-          <div className="space-y-5">
+        <div className="pt-10 ml-auto mr-0 space-y-5 lg:pt-20 lg:-mt-20 lg:w-3/5 lg:flex lg:justify-between lg:items-center lg:space-x-5">
+          <div className="flex-1 space-y-5">
             {worksArrOne.map((_, i) => {
               return <Card key={i} data={_} />;
             })}
           </div>
-          <div className="space-y-5 md:-mt-20">
+          <div className="flex-1 space-y-5 md:-mt-20">
             {worksArrTwo.map((_, i) => {
               return <Card key={i} data={_} />;
             })}
