@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { kite } from "../assets/svg"
+import { developer } from "../assets/svg"
 import { motion } from "framer-motion"
 import { NextSeo } from "next-seo";
 
@@ -47,7 +47,7 @@ export default function Home() {
         <motion.div initial={{ x: 10, y: 40, opacity: 0 }} animate={{
           x: 0, y: 0, opacity: 1
         }} transition={{ ease: [0.17, 0.67, 0.83, 0.67] }}>
-          <Image src={kite} alt="kite" height={300} />
+          <Image src={developer} alt="developer" />
         </motion.div>
       </div></>
   )
