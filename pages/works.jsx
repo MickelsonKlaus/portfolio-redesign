@@ -18,10 +18,9 @@ function Works() {
   ];
   const worksArrTwo = [
     {
-      src: "/undraw_audio_player_re_cl20.png",
-      title:
-        "Gospelworld - A website for gospel songs, artists, lyrics and more",
-      link: "https://gospelworld.vercel.app/",
+      src: "/undraw_Blog_post_re_fy5x.png",
+      title: "Dailyposts - A blog website built with Nextjs",
+      link: "https://dailyposts.vercel.app/",
     },
     {
       src: "/undraw_search_engines_nn9e.png",

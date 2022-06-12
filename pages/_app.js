@@ -14,10 +14,8 @@ function MyApp({ Component, pageProps, router }) {
           site_name: 'Braimah Destiny - React Frontend Developer',
           images: [
             {
-              url: 'https://ibrad-dev.vercel.app/kite.svg',
-              width: 800,
-              height: 600,
-              alt: 'kite showing our aim',
+              url: 'https://ibrad-dev.vercel.app/undraw_Developer_activity_re_39tg.png',
+              alt: 'Developer',
               type: 'image/jpeg',
             },
           ],
