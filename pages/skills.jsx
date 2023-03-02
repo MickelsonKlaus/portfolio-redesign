@@ -61,9 +61,9 @@ function Skills() {
     <>
       <NextSeo
         title="Braimah Destiny - Skills"
-        canonical="https://ibrad-dev.vercel.app/skills"
+        canonical="https://ibrad.xyz/skills"
         openGraph={{
-          url: "https://ibrad-dev.vercel.app/skills",
+          url: "https://ibrad.xyz/skills",
           title: "Braimah Destiny - Skills",
         }}
       />

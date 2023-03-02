@@ -8,9 +8,9 @@ function testimonials() {
     <>
       <NextSeo
         title="Braimah Destiny - Testimonials"
-        canonical="https://ibrad-dev.vercel.app/testimonials"
+        canonical="https://ibrad.xyz/testimonials"
         openGraph={{
-          url: "https://ibrad-dev.vercel.app/testimonials",
+          url: "https://ibrad.xyz/testimonials",
           title: "Braimah Destiny - Testimonials",
         }}
       />

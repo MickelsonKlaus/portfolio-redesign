@@ -24,7 +24,7 @@ function Layout({ children }) {
                     <a href="mailto: braimahaboy@gmail.com" target="_blank" title="Email" rel="noreferrer">
                         <Image src={email} alt="email" width={20} height={20} className="transition-all duration-200 hover:scale-110 active:scale-110" />
                     </a>
-                    <a href="https://github.com/MickelsonKlaus/" target="_blank" title="Github" rel="noreferrer">
+                    <a href="https://github.com/i-brad/" target="_blank" title="Github" rel="noreferrer">
                         <Image src={github} alt="github" width={20} height={20} className="transition-all duration-200 hover:scale-110 active:scale-110" />
                     </a>
                 </span>

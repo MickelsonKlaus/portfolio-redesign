@@ -1,8 +1,8 @@
-import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { NextSeo } from "next-seo";
+import { useRef, useState } from "react";
 import Notification from "../components/Notification";
 import Squares from "../components/Squares";
-import { NextSeo } from "next-seo";
 
 function Contact() {
   const formRef = useRef(null);
@@ -40,9 +40,9 @@ function Contact() {
     <>
       <NextSeo
         title="Braimah Destiny - Contact"
-        canonical="https://ibrad-dev.vercel.app/contact"
+        canonical="https://ibrad.xyz/contact"
         openGraph={{
-          url: "https://ibrad-dev.vercel.app/contact",
+          url: "https://ibrad.xyz/contact",
           title: "Braimah Destiny - Contact",
         }}
       />

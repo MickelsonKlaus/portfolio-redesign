@@ -6,9 +6,9 @@ function about() {
     <>
       <NextSeo
         title="Braimah Destiny - About"
-        canonical="https://ibrad-dev.vercel.app/about"
+        canonical="https://ibrad.xyz/about"
         openGraph={{
-          url: "https://ibrad-dev.vercel.app/about",
+          url: "https://ibrad.xyz/about",
           title: "Braimah Destiny - About",
         }}
       />

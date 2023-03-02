@@ -1,7 +1,7 @@
+import { NextSeo } from "next-seo";
 import React from "react";
 import Card from "../components/Card";
 import Squares from "../components/Squares";
-import { NextSeo } from "next-seo";
 
 function Works() {
   const worksArrOne = [
@@ -33,9 +33,9 @@ function Works() {
     <>
       <NextSeo
         title="Braimah Destiny - Works"
-        canonical="https://ibrad-dev.vercel.app/works"
+        canonical="https://ibrad.xyz/works"
         openGraph={{
-          url: "https://ibrad-dev.vercel.app/works",
+          url: "https://ibrad.xyz/works",
           title: "Braimah Destiny - Works",
         }}
       />

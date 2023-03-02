@@ -16,9 +16,9 @@ export default function Home() {
     <>
       <NextSeo
         title="Braimah Destiny - Home"
-        canonical="https://ibrad-dev.vercel.app/"
+        canonical="https://ibrad.xyz/"
         openGraph={{
-          url: 'https://ibrad-dev.vercel.app/',
+          url: 'https://ibrad.xyz/',
           title: 'Braimah Destiny - Home',
         }}
       />

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import NavLink from "../components/NavLink";
 import { useState } from "react";
-import { logo, menu, close } from "../assets/svg";
+import { close, logo, menu } from "../assets/svg";
+import NavLink from "../components/NavLink";
 
 function Navbar() {
   let [openBar, setOpenBar] = useState(false);
@@ -26,12 +26,14 @@ function Navbar() {
           openBar ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
         } bg-black md:w-1/3`}
       >
-        <button
-          className="absolute transition-all duration-200 outline-none top-3 right-3 active:scale-125"
-          onClick={handleClick}
-        >
-          <Image src={close} alt="close" width={25} />
-        </button>
+        <li>
+          <button
+            className="absolute transition-all duration-200 outline-none top-3 right-3 active:scale-125"
+            onClick={handleClick}
+          >
+            <Image src={close} alt="close" width={25} />
+          </button>
+        </li>
         <li>
           <NavLink
             onClick={handleClick}
