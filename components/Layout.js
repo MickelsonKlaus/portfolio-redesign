@@ -15,7 +15,7 @@ function Layout({ children }) {
                     {/* <a href="https://web.facebook.com/Braimah-Destiny-105694525474749" target="_blank" title="Facebook" rel="noreferrer">
                         <Image src={facebook} alt="facebook" width={20} height={20} className="transition-all duration-200 hover:scale-110 active:scale-110" />
                     </a> */}
-                    <a href="https://twitter.com/iDevBraD" target="_blank" title="Twitter" rel="noreferrer">
+                    <a href="https://twitter.com/_techd" target="_blank" title="Twitter" rel="noreferrer">
                         <Image src={twitter} alt="twitter" width={20} height={20} className="transition-all duration-200 hover:scale-110 active:scale-110" />
                     </a>
                     {/* <a href="https://www.linkedin.com/in/destiny-braimah-073178238/" target="_blank" title="LinkedIn" rel="noreferrer">
